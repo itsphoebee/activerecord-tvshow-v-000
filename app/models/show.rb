@@ -20,7 +20,7 @@ class Show < ActiveRecord::Base
     self.sum(:ratings)
   end
 
-  def popular_shows
+  def self.popular_shows
   end
 
   def shows_by_alphabetical_order
